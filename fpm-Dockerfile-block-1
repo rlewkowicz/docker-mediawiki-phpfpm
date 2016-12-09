@@ -1,0 +1,5 @@
+ENV PHP_EXTRA_CONFIGURE_ARGS --enable-fpm --with-fpm-user=www-data \
+--with-fpm-group=www-data --with-mysqli --with-gd --enable-fpm \
+--with-fpm-user=www-data --with-fpm-group=www-data --with-mysql \
+--with-zlib --with-ldap --with-gd --with-jpeg-dir --with-iconv-dir \
+--enable-mbstring --enable-intl --enable-opcache
