@@ -1,6 +1,6 @@
 # About this Repo
 
-This Repo is a fork of docker-library/php with a few small modifications geared twoards building an image specifically for mediawiki. Currently only 7.0/fpm/alpine is kept up to date. When new images get pushed to the offical docker hub, my jenkins will pull build and update. 
+This Repo is a fork of docker-library/php with a few small modifications geared twoards building an image specifically for mediawiki. Currently only 7.1/fpm/alpine is kept up to date. When new images get pushed to the offical docker hub, my jenkins will pull build and update. 
 
 [![Build Status](http://jenkins.binaryoasis.com/buildStatus/icon?job=mediawiki-docker-phpfpm)](http://jenkins.binaryoasis.com/job/mediawiki-docker-phpfpm/)
 
