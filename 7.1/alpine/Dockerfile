@@ -4,7 +4,7 @@
 # PLEASE DO NOT EDIT IT DIRECTLY.
 #
 
-FROM alpine:edge
+FROM alpine:3.5
 
 # persistent / runtime deps
 ENV PHPIZE_DEPS \
