@@ -52,7 +52,8 @@ RUN apk update && apk add --no-cache --virtual .persistent-deps \
     qt-dev \
     file \
     gtk-doc \
-    bash
+    bash \
+    imagemagick
     
 # ensure www-data user exists
 RUN set -x \
